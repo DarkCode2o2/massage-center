@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عمالقة المساج | زيارات منزلية وفندقية للرجال</title>
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo" style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/logo.jpg" alt="" style="width: 80px; height: 80px; border-radius: 50%;">
+                <div>
+                    <h1>عمالقة المساج</h1>
+                <p>زيارات منزلية وفندقية</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="tel:0564508213" class="btn btn-outline"><i class="fas fa-phone-alt"></i> اتصال</a>
+                <a href="https://wa.me/966564508213" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h2>تجربة الاسترخاء الفاخرة في منزلك أو فندقك</h2>
+            <p>جودة عالية، احترافية وتميز مع أفضل المختصين من الجنسيات العربية</p>
+            <div class="hero-buttons">
+                <a href="tel:0564508213" class="btn btn-primary"><i class="fas fa-phone-volume"></i> احجز الآن</a>
+                <a href="https://wa.me/966564508213" target="_blank" class="btn btn-whatsapp-lg"><i class="fab fa-whatsapp"></i> تواصل واتساب</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges (Features) -->
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <i class="fas fa-car-side feature-icon"></i>
+                <h3>سريعة ومجهزة</h3>
+                <p>زيارات منزلية وفندقية بكافة معدات الاسترخاء</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-user-md feature-icon"></i>
+                <h3>مختصين خبراء</h3>
+                <p>نخبة من أفضل المختصين من جنسيات عربية</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-virus feature-icon"></i>
+                <h3>نظافة وتعقيم</h3>
+                <p>أعلى معايير التعقيم والاحترافية الفندقية</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا المميزة</h2>
+            <div class="services-grid" id="services-container">
+                <!-- Services will be injected here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Action Bar (Mobile Only) -->
+    <div class="sticky-action-bar">
+        <a href="tel:0564508213" class="action-btn call-btn">
+            <i class="fas fa-phone-alt"></i> اتصال
+        </a>
+        <a href="https://wa.me/966564508213" target="_blank" class="action-btn wa-btn">
+            <i class="fab fa-whatsapp"></i> واتساب
+        </a>
+    </div>
+
+    <!-- Dynamic Service Modal -->
+    <div class="modal-overlay" id="service-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <img src="" alt="Service Image" id="modal-img" class="modal-img">
+            <h3 id="modal-title" class="modal-title"></h3>
+            <p id="modal-desc" class="modal-desc"></p>
+            <ul id="modal-benefits" class="modal-benefits"></ul>
+            <a href="#" id="modal-wa-btn" target="_blank" class="btn btn-whatsapp-lg modal-btn">
+                <i class="fab fa-whatsapp"></i> احجز هذه الخدمة عبر الواتساب
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <!-- اليمين: اللوجو والنبذة الاحترافية -->
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <h2>عمالقة <span>المساج</span></h2>
+                </div>
+                <p class="footer-desc">
+                    الوجهة الأولى لخدمات المساج والاسترخاء الفاخرة للرجال. نقدم لك تجربة استثنائية في منزلك أو فندقك، مع نخبة من أفضل المختصين لضمان راحتك واستعادة نشاطك بأعلى معايير الجودة والتعقيم.
+                </p>
+            </div>
+
+            <!-- اليسار: الروابط والموقع -->
+            <div class="footer-contact">
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i> الرئيسية</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-left"></i> خدماتنا</a></li>
+                        <li><a href="tel:0564508213"><i class="fas fa-chevron-left"></i> اتصل بنا</a></li>
+                        <li><a href="https://wa.me/966564508213" target="_blank"><i class="fas fa-chevron-left"></i> حجز واتساب</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-location">
+                    <h3>معلومات التواصل</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <strong>العنوان:</strong> الرياض، حي الملز</li>
+                        <li><i class="fas fa-phone-alt"></i> <strong>الجوال:</strong> 0564508213</li>
+                        <li><i class="fas fa-clock"></i> <strong>أوقات العمل:</strong> متاحون على مدار الساعة</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- حقوق النشر -->
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة &copy; 2026 <strong>عمالقة المساج</strong></p>
+                    <div class="rights">تم التصميم بـ <i class="fa-solid fa-heart"></i> بواسطة <a href="https://wa.me/966542056933" target="_blank">Dark Code</a></div>
+
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
