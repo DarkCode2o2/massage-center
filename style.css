@@ -10,6 +10,10 @@
     --transition: all 0.3s ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ================= Reset & Base ================= */
 * {
     margin: 0;
@@ -172,6 +176,10 @@ ul {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+}
+
+.hero-buttons a {
+    width: 250px;
 }
 
 /* ================= Features (Trust Badges) ================= */
@@ -544,6 +552,7 @@ footer .rights  i{
 }
 footer .rights a {
     color: var(--vibrant-orange);
+    text-decoration: underline;
 }
 
 @keyframes getback {
